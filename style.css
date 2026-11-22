@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: Helvetica ;
+    
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 118px;
+    align-items: center;
+}
+.left{
+    font-size:24px;
+}
+.right ul{
+    display: flex;
+    gap:14px;
+    list-style-type: none;
+    font-size: 14px;
+    }
+a{
+    text-decoration: none;
+    color:aliceblue
+    }
+.Hero-Section{
+    display:flex;
+    padding: 0 118px;
+    gap:88px;
+    align-items: flex-end;
+}
+.right1{
+    box-sizing: content-box;
+    background-color: rgb(101, 107, 107);
+    padding:38px; 
+
+}
+.main-text{
+    font-size: 36px;
+}
+.Hero-Section button{
+    background-color:#3882F6;
+    color:white;
+    border:none;
+    box-sizing: border-box;
+    padding: 8px 22px;
+    font-size: 22px;
+    border-radius:8px;
+
+}
+.Top{
+    background-color:#1F2937;
+    color: aliceblue;
+    box-sizing: border-box;
+    padding: 14px;
+}
+.Some-random-information{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 118px;
+}
+.Some-random-information .head{
+    font-size:36px;
+    font-weight: 900;
+}
+.info-item{
+    display: flex;
+    gap:16px;
+}
+.sub-texts{
+    width: 160px;
+    text-align: center;
+}
+.sub-texts .box {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 118px;
+    
+
+
+}
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+
+
+.CTA{
+    display:flex;
+    gap:36px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    box-sizing: border-box;
+    padding: 24px 36px;
+    margin: 48px auto;
+    border-radius: 8px;
+    max-width: 900px;
+    
+    }
+.CTA button{
+ background-color: #3882F6;
+ color:white;
+ border-color: white;
+ box-sizing: border-box;
+ padding: 8px 22px;
+ font-size: 22px;
+ border-radius:8px;
+ }  
+ .above{
+    font-size: 26px;
+ } 
+ .below{
+    font-size: 12px;
+}
+.footer{
+    background-color: #1F2937;
+    color: aliceblue;
+    text-align: center;
+    font-size: 8px;
+    padding:12px;
+}
+
+
+
